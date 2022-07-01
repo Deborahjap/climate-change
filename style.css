@@ -1,0 +1,103 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+  body {
+  margin: 0;
+  font-family: 'Concert One', cursive;
+  }
+
+body{background-color:#FCF8E8}
+
+/* navigation bar */
+
+#navbar {
+  overflow: hidden;
+  background-color: #94B49F;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+#navbar a:hover {
+  background-color:#FCF8E8;
+  color: black;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+/*finish navigation bar*/
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size:80px;
+}
+
+/* change the text to the middle */
+main{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom:0;
+  Margin-right: 10%;
+  margin-left:10%;
+  font-size:27px;
+  color:green;
+}
+h2{
+  color: black;
+  font-size:30px;
+}
+h1 {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 2px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#myBtn {
+  text-align: center;
+  color: green;
+  font-size: 20;
+}
+
+#quote{
+  text-align:center;
+}
+
+/* Thick red border */
+hr.new4 {
+  border: 1px solid black;
+}
